@@ -1,2 +1,2 @@
 # war_thunder_updater
-updates war thunder
+This script updates war thunder, then afterwards restores your original `launcher` and `config.blk` files
