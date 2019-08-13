@@ -12,3 +12,7 @@ mv config.blk.BK config.BK2
 mv config.blk config.blk.BK
 mv config.blk.ORG config.blk
 echo finished
+#before using the script;
+#rename launcher file to launcher.ORG
+#create your own launcher file (for me it only includes "DRI_PRIME=1 ./linux64/aces")
+#also you can use the launcher fie from this repository
