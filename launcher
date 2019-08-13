@@ -1,0 +1,5 @@
+DRI_PRIME=1 ./linux64/aces
+#LD_PRELOAD="libstrangle.so:${LD_PRELOAD}" FPS=40 DRI_PRIME=1 ./linux64/aces
+#sh -c '(xfwm4 --replace --sm-client-disable&sleep 2&&killall xfwm4&&cd "$HOME/.local/share/Steam/steamapps/common/War Thunder"&&DRI_PRIME=1 ./linux64/aces);xfwm4&'
+#sh -c '(xfwm4 --replace --sm-client-disable&sleep 2&&killall xfwm4&&cd "$HOME/.local/share/Steam/steamapps/common/War Thunder"&&DRI_PRIME=1 ./linux64/aces);xfwm4&'
+#sh -c '(xfwm4 --replace --sm-client-disable&sleep 2&&killall xfwm4&&cd "$HOME/.local/share/Steam/steamapps/common/War Thunder"&&DRI_PRIME=1 ./linux64/aces);xfwm4 --daemon;exit'
