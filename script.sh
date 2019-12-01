@@ -1,4 +1,4 @@
-#/bin/sh
+#/bin/bash
 echo started
 cd "/home/utku/took/happytosharemysteamapps/steamapps/common/War Thunder/"
 mv launcher launcher.SCR
@@ -12,7 +12,6 @@ mv config.blk.BK config.BK2
 mv config.blk config.blk.BK
 mv config.blk.ORG config.blk
 echo finished
-#before using the script;
-#rename launcher file to launcher.ORG
-#create your own launcher file (for me it only includes "DRI_PRIME=1 ./linux64/aces")
-#also you can use the launcher fie from this repository
+#old one-echo sleeping for 5 seconds to let you know
+#sleep 5
+read -n1 -r -p 'Press any key to continue...' key
