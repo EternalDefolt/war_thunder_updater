@@ -1,7 +1,7 @@
 forcedLauncher:i=0
 renderer2:t="vulkan"
 doShowDriversOutdated:b=yes
-language:t="English"
+language:t="Russian"
 use_release_candidate:b=no
 releaseChannel:t=""
 clientType:t="32bit"
@@ -18,7 +18,7 @@ yunetwork{
 
 video{
   mode:t="fullscreen"
-  resolution:t="1366 x 768"
+  resolution:t="1920 x 1440"
   instancing:t="auto"
   compatibilityMode:b=no
   postfx_antialiasing:t="high_fxaa"
